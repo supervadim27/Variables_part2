@@ -129,6 +129,5 @@
                 System.out.println("Кристина теперь получает "+KristinaNewSalary+" рублей. Годовой доход вырос на "+(newKristinaIncome-oldKristinaIncome)+" рублей");
 
             }
-
         }
 
