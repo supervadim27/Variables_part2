@@ -56,7 +56,7 @@
                 System.out.println("Задание №3");
                 System.out.println("На каждого ученика рассчитано "+sheetsPerPerson+" листов бумаги");    }
             public static void task4() {
-                byte bottleMashineCapacityMin = 16;
+                byte bottleMashineCapacityMin = 8;
                 int bottleMashineCapacity20Min = bottleMashineCapacityMin*20;
                 int bottleMashineCapacityDay = bottleMashineCapacityMin*60*24;
                 int bottleMashineCapacity3Days = bottleMashineCapacityDay*3;
@@ -109,24 +109,24 @@
                 System.out.println("В среднем может потребоваться "+middleDayToBeReady+" день");
             }
             public static void task8() {
-                int MashaSalary = 67760;
-                int DenisSalary = 83690;
-                int KristinaSalary = 76230;
-                int MashaNewSalary = (int) (MashaSalary*1.1);
-                int DenisNewSalary = (int) (DenisSalary*1.1);
-                int KristinaNewSalary = (int)(KristinaSalary*1.1);
+                int mashaSalary = 67760;
+                int denisSalary = 83690;
+                int kristinaSalary = 76230;
+                int mashaNewSalary = (int) (mashaSalary*1.1);
+                int denisNewSalary = (int) (denisSalary*1.1);
+                int kristinaNewSalary = (int)(kristinaSalary*1.1);
 
-                int oldMashaIncome = MashaSalary*12;
-                int oldDenisIncome = DenisSalary*12;
-                int oldKristinaIncome = KristinaSalary*12;
-                int newMashaIncome = MashaNewSalary*12;
-                int newDenisIncome = DenisNewSalary*12;
-                int newKristinaIncome = KristinaNewSalary*12;
+                int oldMashaIncome = mashaSalary*12;
+                int oldDenisIncome = denisSalary*12;
+                int oldKristinaIncome = kristinaSalary*12;
+                int newMashaIncome = mashaNewSalary*12;
+                int newDenisIncome = denisNewSalary*12;
+                int newKristinaIncome = kristinaNewSalary*12;
                 System.out.println();
                 System.out.println("Задание №8");
-                System.out.println("Маша теперь получает "+MashaNewSalary+" рублей. Годовой доход вырос на "+(newMashaIncome-oldMashaIncome)+" рублей");
-                System.out.println("Денис теперь получает "+DenisNewSalary+" рублей. Годовой доход вырос на "+(newDenisIncome-oldDenisIncome)+" рублей");
-                System.out.println("Кристина теперь получает "+KristinaNewSalary+" рублей. Годовой доход вырос на "+(newKristinaIncome-oldKristinaIncome)+" рублей");
+                System.out.println("Маша теперь получает "+mashaNewSalary+" рублей. Годовой доход вырос на "+(newMashaIncome-oldMashaIncome)+" рублей");
+                System.out.println("Денис теперь получает "+denisNewSalary+" рублей. Годовой доход вырос на "+(newDenisIncome-oldDenisIncome)+" рублей");
+                System.out.println("Кристина теперь получает "+kristinaNewSalary+" рублей. Годовой доход вырос на "+(newKristinaIncome-oldKristinaIncome)+" рублей");
 
             }
         }
